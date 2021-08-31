@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kaisei Tokumin", "Nanum Myeongjo", "Noto Sans KR";
+  font-size: 1em;
+  color: #707070;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+  background-color: #F5F5F5;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.353);
+  position: absolute;
+  z-index: 999;
+}
+
+nav {
+  width: 70vw;
+  height: 4vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav ul {
+  position: relative;
+  top: 0.7em;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  font-size: 1.5em;
+}
+
+nav ul li a:hover {
+  color: #ff9900;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.first {
+  background-image: url(images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100em;
+}
+
+.first div {
+  position: relative;
+  top: 35%;
+}
+
+.first h2 {
+  font-size: 4.5em;
+  text-align: center;
+}
+
+.first h3 {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.second {
+  background-image: url(images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100em;
+  text-align: center;
+}
+
+.second .first_img {
+  width: 5em;
+  padding-top: 2em;
+}
+
+.second .second_img {
+  width: 50vmax;
+}
+
+.second h2 {
+  font-size: 3.5em;
+  border-bottom: 1px solid #707070;
+  width: 8em;
+  padding-bottom: 0.25em;
+  margin: 0 auto;
+}
+
+.second h6 {
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.third {
+  background-image: url(images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.third .alpha {
+  display: flex;
+  justify-content: space-around;
+  width: 35em;
+  outline: 1px solid red;
+  margin: 0 auto;
+}
+
+.third .alpha input {
+  border: none;
+  background: black;
+}
+
+.third .bravo {
+  outline: 1px solid blue;
+  width: 40em;
+  margin: 0 auto;
+}/*# sourceMappingURL=style4.css.map */

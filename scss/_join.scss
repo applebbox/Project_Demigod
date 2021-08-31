@@ -1,0 +1,77 @@
+.box
+    {width: 100%;
+    height: 100vh;}
+
+img
+    {display: block;
+    margin: 0 auto;}
+
+.first
+    {background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100em;}
+
+.first div
+    {position: relative;
+    top: 35%;}
+
+.first h2
+    {font-size: 4.5em;
+    text-align: center;}
+
+.first h3
+    {font-size: 3.5em;
+    text-align: center;}
+
+.second
+    {background-image: url(images/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100em;
+        text-align: center;}
+
+.second .first_img
+    {width: 5em;
+    padding-top: 2em;}
+
+.second .second_img
+    {width: 50vmax;}
+
+.second h2
+    {font-size: 3.5em;
+    border-bottom: 1px solid #707070;
+    width: 8em;
+    padding-bottom: 0.25em;
+    margin: 0 auto;}
+
+.second h6
+    {font-size: 1.0em;
+    margin-top: 1em;
+    margin-bottom: 1em;}
+
+.third
+    {background-image: url(images/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;}
+        
+.third .alpha
+    {display: flex;
+    justify-content: space-around;
+    width: 35em;
+    outline: 1px solid red;
+    margin: 0 auto;}
+
+.third .alpha input
+    {border: none;
+    background: black;}
+
+.third .bravo
+    {outline: 1px solid blue;
+    width: 40em;
+    margin: 0 auto;}
+
