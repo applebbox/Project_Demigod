@@ -1,3 +1,5 @@
+<text-align: center;>
+
 # Project_Demigod
 
 위사이트는 마비노기 길드 '데미갓'에 헌정 및
