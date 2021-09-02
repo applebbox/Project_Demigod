@@ -58,20 +58,74 @@ img
         text-align: center;
         display: flex;
         flex-direction: column;}
-        
+
+.third .first_img
+    {width: 5em;
+        padding-top: 2em;}
+
+.third h2
+    {font-size: 3.5em;
+    padding-bottom: 0.25em;
+    width: 8em;
+    margin: 0 auto;
+    border-bottom: 1px solid #707070;}  
+    
+    
 .third .alpha
     {display: flex;
     justify-content: space-around;
     width: 35em;
-    outline: 1px solid red;
     margin: 0 auto;}
 
 .third .alpha input
     {border: none;
-    background: black;}
+    background: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-family: 'Noto Sans KR';
+    text-align: center;
+    font-size: 1.2em;}
+
 
 .third .bravo
-    {outline: 1px solid blue;
+    {
     width: 40em;
-    margin: 0 auto;}
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;}
 
+.third .bravo input
+    {background: none;}
+
+form
+    {font-family: 'Noto Sans KR';   
+}
+
+form p 
+    {font-size: 1.2em;
+    padding: 0.5em;
+    color: black;}
+
+#title , #content
+    {padding: 0.25em;}
+
+.third h6
+            {font-size: 1.0em;
+            margin-top: 1em;}
+
+textarea
+    {background: rgba(255, 255, 255, 0.565);
+    border: 1px solid #707070;
+    font-family: 'Noto Sans KR';}
+
+.send
+    {border: 1px solid #707070;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-top: 0.25em;
+    color: white;
+    background: black;
+    font-family: 'Noto Sans KR';
+}
+
+.send:active
+    {color: yellow;}

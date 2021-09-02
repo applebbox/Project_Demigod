@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kaisei Tokumin", "Nanum Myeongjo", "Noto Sans KR";
+  font-size: 1em;
+  color: #707070;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+}
+
+@media (min-width: 1200px) {
+  header {
+    width: 100%;
+    height: 4em;
+    background-color: #F5F5F5;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.353);
+    position: absolute;
+    z-index: 999;
+  }
+
+  nav {
+    width: 70vw;
+    height: 4vh;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    position: relative;
+    top: 0.7em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    font-size: 1.5em;
+  }
+
+  nav ul li a:hover {
+    color: #ff9900;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+}
+@media (max-width: 1199px) and (min-width: 501px) {
+  header {
+    width: 100%;
+  }
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.talk_box {
+  position: relative;
+  top: 7em;
+}
+
+.talk_box h2 {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+  height: 60vh;
+  border-collapse: collapse;
+  font-family: "Noto Sans KR";
+  font-weight: lighter;
+}
+
+thead tr th {
+  background: #b8b8b861;
+  padding: 0.5em;
+}
+
+tbody tr {
+  text-align: center;
+  border-bottom: 0.5px solid #707070;
+}
+
+tbody a:hover {
+  font-weight: bold;
+}
+
+.next_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.next_page li a {
+  border: 1px solid black;
+  padding: 0.25em;
+}/*# sourceMappingURL=style3.css.map */

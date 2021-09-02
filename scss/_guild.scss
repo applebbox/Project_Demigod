@@ -9,7 +9,7 @@
     background-repeat: no-repeat;}
 
 .first .welcome
-    {width: 65%;
+    {width: 100%;
     text-align: center;
     position: relative;
     top: 30%;
@@ -22,14 +22,14 @@
     color: #707070;}
 
 .first .scroll img
-    {width: 3vmax;}
+    {width: 1.5em;}
 
 .first .welcome h1
-    {font-size: 4vmax;
+    {font-size: 2.5em;
     color: black;}
     
 .first .welcome h2
-    {font-size: 3vmax;
+    {font-size: 1.5em;
     color: black;
     font-weight: normal;}
 
@@ -46,12 +46,12 @@
 .second h2
     {position: relative;
     top: 20vh;
-    font-size: 4vmax;}
+    font-size: 2.5em;}
 
 .second p
     {position: relative;
     top: 30vh;
-    font-size: 2vmax;
+    font-size: 1.5vmax;
     line-height: 1.7em;}
 
 

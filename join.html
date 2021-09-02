@@ -16,8 +16,8 @@
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="guild.html">GUILD</a></li>
-                <li><a href="#">MEMBER</a></li>
-                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="member.html">MEMBER</a></li>
+                <li><a href="community.html">COMMUNITY</a></li>
                 <li><a href="#">JOIN</a></li>
             </ul>
         </nav>
@@ -36,20 +36,31 @@
         <img src="images/dunbartun.png" alt="" class="second_img">
     </div>
     <div class="box third" >
-        <img src="images/signal.png" alt="">
+        <img src="images/signal.png" alt="" class="first_img">
     <h2>온라인상담</h2>
-    <p>온라인상담시 시간이 다소 걸릴 수 있다는점 <br>
-        양해바랍니다.</p>
+    <h6>온라인상담시 시간이 다소 걸릴 수 있다는점 <br>
+        양해바랍니다.</h6>
     <form >
     <div class="alpha">
     <div><p>닉네임</p><input type="text" name="id"></div>
     <div><p>서버</p><input type="text" name="server"></div>
     </div>
     <div class="bravo">
-    <p>제목</p><input type="text" name="title">
-    <p>내용</p><input type="text" name="memo" size="12">
+    <p>제목</p>
+    <textarea name="title" id="title" cols="30" rows="1"></textarea>
+    <p>내용</p>
+    <textarea name="Content" id="content" cols="30" rows="10"></textarea>
     </div>
-    </form></div>
+    <button onclick="complete()" class="send">보내기</button>
+    </form>
+</div>
+
+
+<script>
+    function complete(){
+        alert ("신청이 완료되었습니다!");
+    }
+</script>
 
 </body>
 </html>

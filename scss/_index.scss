@@ -1,29 +1,31 @@
+@media (min-width:1200px){
+
 section#main_title
     {background-image: url(images/background.svg);
-    background-size: 23em;
+    background-size: 30em;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;}
 
 section#main_title .welcome_box
-    {width: 50vw;
+    {width: 50%;
     border-top: 1px solid #707070;
     border-bottom: 1px solid #707070;
     margin: 0 auto;
     text-align: center;
     position: relative;
-    top: 25vh;
+    top: 9em;
     padding-top: 3em;
     padding-bottom: 3em;}
 
 .welcome_box h1
-    {font-size: 6vmax;
+    {font-size: 6em;
     text-align: center;
     color: #464545;}
 
 .welcome_box h2
-    {font-size: 4vmax;
+    {font-size: 4em;
     font-weight: normal;
     color: #464545;}
 
@@ -32,12 +34,16 @@ section#main_title .welcome_box
     width: 50vw;
     margin: 0 auto;
     position: relative;
-    top: 28vh;
-    font-size: 1.5vmax;
+    top: 7em;
+    font-size: 1.5em;
     }
 
 .sub_box p
     {text-align: center;}
 
+}
 
+@media (max-width: 1199px) and (min-width:501px)
+    {
 
+    }
