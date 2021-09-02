@@ -1,4 +1,3 @@
-<text-align: center;>
 
 # Project_Demigod
 
